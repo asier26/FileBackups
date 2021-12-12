@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <Authors>Asier</Authors>
+    <Authors>asier26</Authors>
     <PackageProjectUrl>https://github.com/asier26/FileBackups</PackageProjectUrl>
     <TargetFramework>net5.0</TargetFramework>
     <Description>A tool for backing up all of your files</Description>
