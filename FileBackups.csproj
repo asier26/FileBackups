@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <Authors>Asier</Authors>
+    <PackageProjectUrl>https://github.com/asier26/FileBackups</PackageProjectUrl>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>A tool for backing up all of your files</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>console,cli,consoleapp</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
